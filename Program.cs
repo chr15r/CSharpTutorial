@@ -3,32 +3,31 @@
 namespace CSharpTutorial
 {
 
+
     partial class Program
     {
 
         static void Main(string[] args)
         {
-            int number;
-            var results = int.TryParse("abc", out number);
-            if (results)
-            {
-                Console.WriteLine(number);
-            }
-            else
-            {
-                Console.WriteLine("Failed");
-            }
-                      
 
+            var customer = new Customer(1);
+            customer.Orders.Add(new Order());
+            customer.Orders.Add(new Order());
+
+            customer.Promote();
+
+            Console.WriteLine(customer.Orders.Count);
 
         }
+
+
 
         static void UsePerson()
         {
             var p = Person.Parse("Mike");
             p.Introduce("John");
 
-            var customer = new Customer(1, "Chris");
+            var customer = new Customer1(1, "Chris");
             var order = new Order();
             customer.Orders.Add(order);
 
@@ -59,6 +58,20 @@ namespace CSharpTutorial
             catch (Exception ex)
             {
                 Console.WriteLine("Error - " + ex.Message);
+            }
+        }
+
+        static void ParseInt()
+        {
+            int number;
+            var results = int.TryParse("abc", out number);
+            if (results)
+            {
+                Console.WriteLine(number);
+            }
+            else
+            {
+                Console.WriteLine("Failed");
             }
         }
 
