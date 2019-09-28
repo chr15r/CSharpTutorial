@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composition", "Composition\Composition.csproj", "{0E1D827D-3CA5-4AFD-802C-065D14DE83E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiers", "AccessModifiers\AccessModifiers.csproj", "{B3CDD34B-8607-4478-A176-E6AB2023A7BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon", "Amazon\Amazon.csproj", "{B354AFD3-58BA-469B-B0EC-CA273F8FC2CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{0E1D827D-3CA5-4AFD-802C-065D14DE83E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E1D827D-3CA5-4AFD-802C-065D14DE83E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E1D827D-3CA5-4AFD-802C-065D14DE83E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3CDD34B-8607-4478-A176-E6AB2023A7BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3CDD34B-8607-4478-A176-E6AB2023A7BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3CDD34B-8607-4478-A176-E6AB2023A7BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3CDD34B-8607-4478-A176-E6AB2023A7BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B354AFD3-58BA-469B-B0EC-CA273F8FC2CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B354AFD3-58BA-469B-B0EC-CA273F8FC2CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B354AFD3-58BA-469B-B0EC-CA273F8FC2CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B354AFD3-58BA-469B-B0EC-CA273F8FC2CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
