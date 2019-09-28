@@ -2,7 +2,7 @@
 
 namespace CSharpTutorial
 {
-    public class Person
+    public class Person1
     {
         public string Name { get; set; }
         public void Introduce(string to)
@@ -10,9 +10,9 @@ namespace CSharpTutorial
             Console.Write("Hi {0}, I am {1}", to, Name);
         }
 
-        public static Person Parse(String str)
+        public static Person1 Parse(String str)
         {
-            Person person = new Person();
+            Person1 person = new Person1();
             person.Name = str;
             return person;
         }

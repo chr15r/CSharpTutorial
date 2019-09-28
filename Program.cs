@@ -2,6 +2,21 @@
 
 namespace CSharpTutorial
 {
+    public class Person
+    {
+        private DateTime _birthDate;
+
+        public void SetBirthDate(DateTime birthDate)
+        {
+            _birthDate = birthDate;
+        }
+        
+        public DateTime GetBirthDate()
+        {
+            return _birthDate;
+        }
+
+    }
 
 
     partial class Program
@@ -10,6 +25,14 @@ namespace CSharpTutorial
         static void Main(string[] args)
         {
 
+            Person p = new Person();
+            p.SetBirthDate(new DateTime(1983, 1, 1));
+            Console.WriteLine(p.GetBirthDate());
+
+        }
+
+        static void CustomerOrders()
+        {
             var customer = new Customer(1);
             customer.Orders.Add(new Order());
             customer.Orders.Add(new Order());
@@ -17,14 +40,11 @@ namespace CSharpTutorial
             customer.Promote();
 
             Console.WriteLine(customer.Orders.Count);
-
         }
-
-
 
         static void UsePerson()
         {
-            var p = Person.Parse("Mike");
+            var p = Person1.Parse("Mike");
             p.Introduce("John");
 
             var customer = new Customer1(1, "Chris");
