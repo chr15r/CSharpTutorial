@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composition", "Composition\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiers", "AccessModifiers\AccessModifiers.csproj", "{B3CDD34B-8607-4478-A176-E6AB2023A7BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon", "Amazon\Amazon.csproj", "{B354AFD3-58BA-469B-B0EC-CA273F8FC2CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amazon", "Amazon\Amazon.csproj", "{B354AFD3-58BA-469B-B0EC-CA273F8FC2CD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors", "Constructors\Constructors.csproj", "{2CEF6ABA-3373-4D62-BFDD-F4E6B6E9239B}"
 EndProject
@@ -28,6 +28,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverriding", "MethodOverriding\MethodOverriding.csproj", "{4598D38A-DBEE-46B5-B2DC-BB8FAD5EBF74}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClasses", "AbstractClasses\AbstractClasses.csproj", "{58204D85-D3CA-4340-92EE-DEE1B571CA04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{E9F7FF8F-A991-4BDC-97C9-49082FD05BA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces.Tests", "Interfaces.Tests\Interfaces.Tests.csproj", "{D7DEB175-1827-42E6-BA76-980CBE34DC28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +91,14 @@ Global
 		{58204D85-D3CA-4340-92EE-DEE1B571CA04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58204D85-D3CA-4340-92EE-DEE1B571CA04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58204D85-D3CA-4340-92EE-DEE1B571CA04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9F7FF8F-A991-4BDC-97C9-49082FD05BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9F7FF8F-A991-4BDC-97C9-49082FD05BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9F7FF8F-A991-4BDC-97C9-49082FD05BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9F7FF8F-A991-4BDC-97C9-49082FD05BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7DEB175-1827-42E6-BA76-980CBE34DC28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7DEB175-1827-42E6-BA76-980CBE34DC28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7DEB175-1827-42E6-BA76-980CBE34DC28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7DEB175-1827-42E6-BA76-980CBE34DC28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
